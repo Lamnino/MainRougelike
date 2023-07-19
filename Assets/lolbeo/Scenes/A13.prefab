@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2127585096042922339}
   - component: {fileID: 4279232311859620139}
+  - component: {fileID: 1469393344734055761}
   m_Layer: 0
   m_Name: A13
   m_TagString: Untagged
@@ -32,7 +33,7 @@ Transform:
   - {fileID: 911327193742280826}
   - {fileID: 1306184437814083332}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!156049354 &4279232311859620139
 Grid:
@@ -46,6 +47,19 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
+--- !u!114 &1469393344734055761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501730695296658254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d8679977d0973648ad5d3e8d441253f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gate: 0100000003000000
 --- !u!1 &8905886001721607130
 GameObject:
   m_ObjectHideFlags: 0

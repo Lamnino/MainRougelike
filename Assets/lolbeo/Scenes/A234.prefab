@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9104196042193090226}
   - component: {fileID: 2258235492623791295}
+  - component: {fileID: 8289650193768331382}
   m_Layer: 0
   m_Name: A234
   m_TagString: Untagged
@@ -32,7 +33,7 @@ Transform:
   - {fileID: 7974792922698629268}
   - {fileID: 4675612978686539914}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!156049354 &2258235492623791295
 Grid:
@@ -46,6 +47,19 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
+--- !u!114 &8289650193768331382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741355154780280062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d8679977d0973648ad5d3e8d441253f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gate: 020000000300000004000000
 --- !u!1 &3933697452020865665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,7 +1064,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 9
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1207,8 +1221,8 @@ Tilemap:
   m_TileSpriteArray:
   - m_RefCount: 13
     m_Data: {fileID: 157579577, guid: 6c47d02dd59f1b043916b4fbc6a8c632, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -2051456544, guid: 6c47d02dd59f1b043916b4fbc6a8c632, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 9
     m_Data: {fileID: -720928591, guid: 6c47d02dd59f1b043916b4fbc6a8c632, type: 3}
   - m_RefCount: 3
@@ -1223,8 +1237,8 @@ Tilemap:
     m_Data: {fileID: 776255770, guid: 6c47d02dd59f1b043916b4fbc6a8c632, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -1341207075, guid: 6c47d02dd59f1b043916b4fbc6a8c632, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -2051456544, guid: 6c47d02dd59f1b043916b4fbc6a8c632, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1168477199, guid: 6c47d02dd59f1b043916b4fbc6a8c632, type: 3}
   - m_RefCount: 1
