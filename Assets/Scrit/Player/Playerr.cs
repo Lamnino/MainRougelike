@@ -33,6 +33,7 @@ public class Playerr : MonoBehaviour
     {
         instance = this;
         rb = GetComponent<Rigidbody2D>();
+        cam = GameObject.FindGameObjectWithTag("MainCamera").transform;
     }
 
     void Update()
