@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2192692223578440206}
   - component: {fileID: 3001028520365298473}
   m_Layer: 0
-  m_Name: A4
+  m_Name: A4 - Copy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,7 +60,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d8679977d0973648ad5d3e8d441253f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gate: 03000000
+  gate: 02000000
+  Typeofmap: 65
 --- !u!1 &5741016317084731773
 GameObject:
   m_ObjectHideFlags: 0

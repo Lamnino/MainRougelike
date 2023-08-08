@@ -60,7 +60,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d8679977d0973648ad5d3e8d441253f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gate: 020000000300000004000000
+  gate: 010000000200000003000000
+  Typeofmap: 65
 --- !u!1839735485 &2256549260403056267
 Tilemap:
   m_ObjectHideFlags: 0

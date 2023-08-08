@@ -60,6 +60,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gate: 01000000020000000300000004000000
+  Typeofmap: 65
 --- !u!1 &4186815576561514551
 GameObject:
   m_ObjectHideFlags: 0

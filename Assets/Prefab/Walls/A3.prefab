@@ -1006,7 +1006,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d8679977d0973648ad5d3e8d441253f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gate: 03000000
+  gate: 02000000
+  Typeofmap: 65
 --- !u!1 &5189249700159720900
 GameObject:
   m_ObjectHideFlags: 0
